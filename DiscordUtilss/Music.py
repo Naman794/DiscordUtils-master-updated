@@ -144,8 +144,7 @@ class Music(object):
 
 class MusicPlayer(object):
     def __init__(self, ctx, music, **kwargs):
-        if not has_voice:
-            raise RuntimeError("DiscordUtils[voice] install needed in order to use voice")
+        
 
         self.ctx = ctx
         self.voice = ctx.voice_client
