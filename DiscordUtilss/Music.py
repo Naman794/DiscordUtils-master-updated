@@ -38,8 +38,7 @@ async def ytbettersearch(query):
     return url
 
 async def get_video_data(url, search, bettersearch, loop):
-    if not has_voice:
-        raise RuntimeError("DiscordUtils[voice] install needed in order to use voice")
+    
 
     if not search and not bettersearch:
         data = await loop.run_in_executor(None, lambda: ydl.extract_info(url, download=False))
