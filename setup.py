@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DiscordUtils",
+    name="DiscordUtilss",
     version="1.3.5",
     author="𝘼𝙣𝙤𝙨 𝙑𝙤𝙡𝙙𝙞𝙜𝙤𝙖𝙙",
     description="DiscordUtils is a very useful library made to be used with discord.py",
