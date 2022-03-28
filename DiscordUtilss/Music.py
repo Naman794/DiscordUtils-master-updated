@@ -93,9 +93,7 @@ async def get_video_data(url, search, bettersearch, loop):
             return Song(source, url, title, description, views, duration, thumbnail, channel, channel_url, False)
         
 def check_queue(ctx, opts, music, after, on_play, loop):
-    if not has_voice:
-        raise RuntimeError("DiscordUtils[voice] install needed in order to use voice")
-
+    
     try:
         song = music.queue[ctx.guild.id][0]
     except IndexError:
