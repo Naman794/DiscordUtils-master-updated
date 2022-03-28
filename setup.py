@@ -10,7 +10,7 @@ setuptools.setup(
     description="DiscordUtils is a very useful library made to be used with discord.py",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Naman794/DiscordUtils-master-updated",
+    url="https://github.com/Naman794/DiscordUtilss",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
