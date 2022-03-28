@@ -13,9 +13,7 @@ For access to Pagination and InviteTracker use:
 pip install -U git+https://github.com/Naman794/DiscordUtils-master-updated
 ```
 
-or, instead use the following for access to Music functions aswell
-```
-pip install DiscordUtils[voice]
+
 ```
 Requires discord.py[voice] so make sure you have all dependencies of it installed.
 
