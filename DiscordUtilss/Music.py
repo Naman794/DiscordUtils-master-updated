@@ -118,8 +118,7 @@ def check_queue(ctx, opts, music, after, on_play, loop):
 
 class Music(object):
     def __init__(self):
-        if not has_voice:
-            raise RuntimeError("DiscordUtils[voice] install needed in order to use voice")
+     
 
         self.queue = {}
         self.players = []
