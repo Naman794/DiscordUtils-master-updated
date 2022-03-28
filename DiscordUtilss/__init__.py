@@ -1,8 +1,8 @@
-from DiscordUtils import Pagination
-from DiscordUtils.InviteTracker import InviteTracker
-from DiscordUtils.Music import Music
+from DiscordUtilss import Pagination
+from DiscordUtilss.InviteTracker import InviteTracker
+from DiscordUtilss.Music import Music
 
-__title__ = "DiscordUtils"
+__title__ = "DiscordUtilss"
 __version__ = "1.3.4"
-__author__ = "toxicrecker"
+__author__ = "CODE X"
 __license__ = "MIT"
