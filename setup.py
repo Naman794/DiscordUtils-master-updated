@@ -5,12 +5,12 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
 
 setuptools.setup(
     name="DiscordUtils",
-    version="1.3.4",
-    author="toxicrecker",
+    version="1.3.5",
+    author="𝘼𝙣𝙤𝙨 𝙑𝙤𝙡𝙙𝙞𝙜𝙤𝙖𝙙",
     description="DiscordUtils is a very useful library made to be used with discord.py",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://www.github.com/toxicrecker/DiscordUtils",
+    url="https://github.com/Naman794/DiscordUtils-master-updated",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
