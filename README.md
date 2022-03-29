@@ -1,5 +1,5 @@
 # Future
-For around 6-7 months I've not been working on DiscordUtils due to a few simple reasons i stated earlier, but since danny decided to resume the development of discord.py I will most likely come back to this and rewrite everything from start as soon as my personal life gets sorted out (probably sometime in April). Thanks for reading, have a nice day.
+Updating this repo to the latest d.py V2.0 after danny has returned from his free space!
 
 # Also, read this
 Those of you who tried to message me earlier for support and I never replied, it was just because I stopped working and caring about the library but now you could DM me once again and I will reply to you all.
@@ -10,7 +10,7 @@ A very useful library made to be used in with [discord.py](https://pypi.org/proj
 # Installation
 For access to Pagination and InviteTracker use:
 ```
-pip install -U git+https://github.com/Naman794/DiscordUtils-master-updated
+pip install -U git+https://github.com/Naman794/DiscordUtilss
 ```
 
 
@@ -19,7 +19,7 @@ Requires discord.py[voice] so make sure you have all dependencies of it installe
 
 # Example code
 
-### DiscordUtils.Pagination.AutoEmbedPaginator
+### DiscordUtilss.Pagination.AutoEmbedPaginator
 ```python
 @bot.command()
 async def paginate(ctx):
@@ -31,7 +31,7 @@ async def paginate(ctx):
     await paginator.run(embeds)
 ```
 
-### DiscordUtils.Pagination.CustomEmbedPaginator
+### DiscordUtilss.Pagination.CustomEmbedPaginator
 ```python
 @bot.command()
 async def paginate(ctx):
@@ -48,11 +48,11 @@ async def paginate(ctx):
     await paginator.run(embeds)
 ```
 
-### DiscordUtils.InviteTracker
+### DiscordUtilss.InviteTracker
 ```python
 import discord
 from discord.ext import commands
-import DiscordUtils
+import DiscordUtilss
 
 intents = discord.intents.default()
 intents.members = True
@@ -64,14 +64,14 @@ async def on_member_join(member):
     inviter = await tracker.fetch_inviter(member) # inviter is the member who invited
 ```
 
-### DiscordUtils.Music
+### DiscordUtilss.Music
 ```python
 import discord
 from discord.ext import commands
-import DiscordUtils
+import DiscordUtilss
 
 bot = commands.AutoShardedBot(command_prefix=">")
-music = DiscordUtils.Music()
+music = DiscordUtilss.Music()
 
 @bot.command()
 async def join(ctx):
@@ -157,11 +157,10 @@ async def remove(ctx, index):
 For further information please read the docs
 
 # Links
-**[Documentation](https://docs.discordutils.gq)**
 
-**[Github](https://github.discordutils.gq)**
+
+**[Github](https://github.discordutilss.gq)**
 
 # Support
-**__Please make sure that you are on the latest version of [DiscordUtils](https://pypi.org/project/DiscordUtils) and [youtube_dl](https://pypi.org/project/youtube_dl) before contacting for support__**
+**__Pwill be out soon!__**
 
-DM/PM `toxic_recker#2795` on Discord for support
